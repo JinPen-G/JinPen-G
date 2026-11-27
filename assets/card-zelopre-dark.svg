@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="186" viewBox="0 0 590 186" fill="none" role="img" aria-label="Zelo-pre">
+  <defs>
+    <linearGradient id="cbg-zelopre-dark" x1="0" y1="0" x2="590" y2="186" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f141e"/>
+      <stop offset="100%" stop-color="#131a26"/>
+    </linearGradient>
+    <radialGradient id="cglow-zelopre-dark" cx="0.92" cy="0.08" r="0.5">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cclip-zelopre-dark">
+      <rect x="1" y="1" width="588" height="184" rx="16"/>
+    </clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+    @keyframes p { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    .pulse { animation: p 2.6s ease-in-out infinite; }
+  </style>
+  <g clip-path="url(#cclip-zelopre-dark)">
+    <rect x="0" y="0" width="590" height="186" fill="url(#cbg-zelopre-dark)"/>
+    <rect x="0" y="0" width="590" height="186" fill="url(#cglow-zelopre-dark)"/>
+
+    <rect x="20" y="20" width="40" height="40" rx="11" fill="#162030" stroke="#263449" stroke-width="1"/>
+    <g transform="translate(28, 26)" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M12 3L21 8l-9 5-9-5 9-5z"/>
+      <path d="M3 12.5l9 5 9-5"/>
+      <path d="M3 17l9 5 9-5"/>
+    </g>
+
+    <text x="74" y="45.5" class="sans" font-size="19" font-weight="700" fill="#f8fafc" letter-spacing="-0.3">Zelo-pre</text>
+
+    <rect x="457" y="27" width="105" height="24" rx="12" fill="#162030" stroke="#263449" stroke-width="1"/>
+    
+    <text x="509.5" y="42.5" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#d8e3f2">React · MCP</text>
+
+    <text x="28" y="88" class="sans" font-size="13.5" font-weight="500" fill="#cbd5e1">React UI showcase, component distribution &amp; MCP engineering governance.</text>
+    <text x="28" y="113" class="sans" font-size="13" font-weight="400" fill="#8b9bb4">React 页面展示、组件源码分发与 MCP 工程治理平台框架。</text>
+
+    <line x1="28" y1="131" x2="562" y2="131" stroke="#222b3a" stroke-width="0.9" stroke-opacity="0.75"/>
+
+    <circle cx="32" cy="153" r="4" fill="#a78bfa"/><text x="43" y="157" class="mono" font-size="12" fill="#8b9bb4">TypeScript</text><rect x="137" y="142" width="54" height="22" rx="6" fill="#162030" stroke="#263449" stroke-width="0.9"/><text x="164.0" y="156.5" text-anchor="middle" class="mono" font-size="11" fill="#8b9bb4">React</text><rect x="199" y="142" width="111" height="22" rx="6" fill="#162030" stroke="#263449" stroke-width="0.9"/><text x="254.5" y="156.5" text-anchor="middle" class="mono" font-size="11" fill="#8b9bb4">Design System</text><rect x="318" y="142" width="39" height="22" rx="6" fill="#162030" stroke="#263449" stroke-width="0.9"/><text x="337.5" y="156.5" text-anchor="middle" class="mono" font-size="11" fill="#8b9bb4">MCP</text>
+
+    <text x="556" y="158" text-anchor="end" class="sans" font-size="15" fill="#5b6b82">↗</text>
+  </g>
+  <rect x="1" y="1" width="588" height="184" rx="16" stroke="#222b3a" stroke-width="1.15"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="86" viewBox="0 0 1200 86" fill="none" role="img" aria-label="PenG-AI Footer">
+  <defs>
+    <linearGradient id="fadeLine-light" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#0284c7" stop-opacity="0.26"/>
+      <stop offset="75%" stop-color="#059669" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="fclip-light">
+      <rect x="0" y="0" width="1200" height="86"/>
+    </clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+    @keyframes driftA {
+      0% { transform: translateX(0px); }
+      100% { transform: translateX(-600px); }
+    }
+    @keyframes driftB {
+      0% { transform: translateX(-600px); }
+      100% { transform: translateX(0px); }
+    }
+    .waveA { animation: driftA 18s linear infinite; }
+    .waveB { animation: driftB 24s linear infinite; }
+  </style>
+  <g clip-path="url(#fclip-light)">
+    <g class="waveA">
+      <path d="M 0 32 Q 150 12 300 32 T 600 32 T 900 32 T 1200 32 T 1500 32 T 1800 32" stroke="url(#fadeLine-light)" stroke-width="1.3" fill="none"/>
+    </g>
+    <g class="waveB">
+      <path d="M 0 38 Q 150 56 300 38 T 600 38 T 900 38 T 1200 38 T 1500 38 T 1800 38" stroke="url(#fadeLine-light)" stroke-width="1" stroke-opacity="0.7" fill="none"/>
+    </g>
+    <text x="600" y="72" text-anchor="middle" class="mono" font-size="12" fill="#94a3b8" letter-spacing="0.5">Powered by PenG-AI  ·  Build calm, durable open-source software</text>
+  </g>
+</svg>
